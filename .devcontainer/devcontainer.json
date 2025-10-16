@@ -1,0 +1,20 @@
+{
+  // Nome que aparecerá para o seu ambiente
+  "name": "Java Project",
+
+  // "Imagem" base do contêiner. Esta já vem com Java 17 (versão LTS)
+  "image": "mcr.microsoft.com/devcontainers/java:0-17",
+
+  // Personalizações para o editor VS Code dentro do Codespace
+  "customizations": {
+    "vscode": {
+      // Lista de extensões que serão instaladas automaticamente
+      "extensions": [
+        "vscjava.vscode-java-pack" // O pacote essencial para Java
+      ]
+    }
+  },
+
+  // Comando para ser executado no terminal após o ambiente ser criado
+  "postCreateCommand": "java -version"
+}
