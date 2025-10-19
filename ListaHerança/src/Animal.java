@@ -19,6 +19,19 @@ public class Animal{
             this.idade=idade;
         }
     }
+    //Getters
+    public double getPeso(){
+        return this.peso;
+    }
+    public String getAli(){
+        return this.alimento;
+    }
+    public int getidade(){
+        return this.idade;
+    }
+    public double getVel(){
+        return this.velocidade;
+    }
     //Métodos
     protected void comer(){
         System.out.println("O animal esta comendo!");
