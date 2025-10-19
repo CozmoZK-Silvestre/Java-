@@ -1,5 +1,5 @@
 public class Felino extends Animal{
-    public Felino(String alimento,int idade, double velocidade, double peso){
+    public Felino(double peso, String alimento,int idade, double velocidade){
         super(peso,alimento,idade,velocidade);
     }
     //Método
