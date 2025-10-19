@@ -34,7 +34,7 @@ public class Animal{
     }
     //Métodos
     protected void comer(){
-        System.out.println("O animal esta comendo!");
+        System.out.println("O animal esta comendo "+this.alimento);
     }
     public void mostrarIdade(){
         System.out.println("Idade do animal:"+this.idade);
